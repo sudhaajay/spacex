@@ -1,0 +1,136 @@
+#pic1{
+    background-image: url(image11.jpeg);
+    background-size: cover;
+    height: 739px;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+#btn{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+#nav1{
+    background-color: transparent;
+}
+.sec1{
+    position: absolute;
+    bottom: 35%;
+    left: 100px;
+    top: 162px;
+}
+.sec1 h5{
+    color: white;
+
+}
+.sec1 h1{
+    color: white;
+
+}
+#pic2{
+    background-image: url(image2.jpg);
+    background-size: cover;
+    height: 739px;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.sec2 h5{
+    color: white;
+    padding-top: 30%;
+    padding-left: 100px;
+
+}
+.sec2 h1{
+    color: white;
+    padding-left: 100px;
+}
+#btn2{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+#pic3{
+    background-image: url(image3.jpeg);
+    background-size: cover;
+    height: 739px;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.sec3 h1{
+    color: white;
+    padding-left: 100px;
+    padding-top: 30%;
+}
+#btn3{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100;
+    /* margin-left: 30%; */
+}
+ footer a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-left: 50px;
+    font-size: 10px;
+}
+@media screen and (max-width: 960px){
+footer span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+
+}
+}
+ footer span {
+    font-size: 12px;
+    margin: 0 20px;
+}
+
+nav a img{
+    width: 267px;
+    height: 21px;
+}
+@media (min-width: 1200px){
+    #container1{
+        margin-left: 400px;
+        margin-top: -28px;
+    }
+      
+}
+@media only screen and (max-width: 600px) {
+    #container1 .navbar-brand{
+        display: none;
+    }
+    #container1 .navbar-toggler{
+        margin-left: 404px!important;
+        margin-top: -25px!important;
+    }
+    .navbar a{
+        margin-left: 208px;
+        
+    }
+    .navbar a{
+        margin-left: 0px;
+        margin-left: 113px;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    #container1 .navbar-brand{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    #container1 {
+        margin-left: -118px!important;
+        margin-left: 65px;
+        /* margin-left: 81px!important; */
+    }
+  }
